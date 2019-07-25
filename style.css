@@ -1,0 +1,227 @@
+@font-face {
+    font-family: "Tinos";
+    src: url("C:/Git/Kongregate/kongregate-forums/fonts/Tinos-Regular.ttf");
+}
+@font-face {
+    font-family: "Tinos";
+    src: url("C:\Git\Kongregate\kongregate-forums\fonts\Tinos-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Tinos";
+    src: url("C:\Git\Kongregate\kongregate-forums\fonts\Tinos-Italic.ttf");
+    font-style: italic, oblique;
+}
+@font-face {
+    font-family: "Tinos";
+    src: url("C:\Git\Kongregate\kongregate-forums\fonts\Tinos-BoldItalic.ttf");
+    font-weight: bold;
+    font-style: italic, oblique;
+}
+
+body
+{
+    margin-bottom: 50px;
+}
+
+#feature
+{
+    font-family: 'Tinos' !important;
+}
+
+.ExtContThread
+{
+    line-height: 20px;
+    border: 1px solid #cfcfcf;
+    border-left: 3px solid #5c5c5c;
+    display: inherit;
+    width: 100%;
+    margin-bottom: -28px;
+    background-color: white;
+    font-family: 'Tinos';
+}
+
+.ExtDottedRule
+{
+    background-image: linear-gradient(to right, black 33%, rgba(255,255,255,0) 0%);
+    background-position: bottom;
+    background-size: 2px 1px;
+    background-repeat: repeat-x;
+    height: 1px;
+    margin: 0px 10px;
+}
+
+.ExtThreadTitle
+{
+    display: block;
+    color: #333333 !important;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px;
+}
+
+.ExtThreadLastPost
+{
+    font-size: 11px;
+    color: #5d5d5d !important;
+    padding: 10px;
+    display: flow-root;
+}
+
+.ExtThreadLastPost b 
+{
+    color: #333333 !important;
+}
+
+.ExtThreadLeft
+{
+    float: left;
+}
+
+.ExtThreadRight
+{
+    float: right;
+}
+
+.ExtFoot
+{
+    height: 6%;
+    min-height: 38px;
+    position: fixed;
+    background-color: #444444;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px;
+    font-family: 'Tinos';
+}
+
+.ExtFootBtn
+{
+    background-color: white;
+    float: left;
+    padding: 10px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(244,244,244,1) 100%);
+    border: 1px solid #eee;
+    text-transform: uppercase;
+}
+
+.ExtFoot #ExtFootSearch
+{
+    float: right;
+}
+
+.maincontent
+{
+    background-color: #e5e5e5;
+}
+
+#admin_links_placeholder,
+#header,
+#primarywrap,
+.maincontent,
+#global,
+#feature,
+.adspacer,
+#subwrap,
+#footer,
+table.topics,
+#headerwrap
+{
+    width: 100% !important;
+    min-width: initial;
+}
+
+.forum_header .searchbox
+{
+    float: initial;
+}
+
+#subwrap,
+.footer_sub,
+#footer,
+.maincontent,
+body#forums #featurewide
+{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.welcome-user
+{
+    position: initial;
+}
+
+#header
+{
+    height: 27px;
+}
+
+.welcome-user>li
+{
+    margin: -1px;
+}
+
+.forum_header
+{
+    margin: 0 15px;
+    padding: 0;
+    border: 0;
+}
+
+.forum_title 
+{
+    color: #900;
+    font-family: 'Tinos' !important;
+}
+
+body#forums #featurewide>table
+{
+    border-collapse: initial;
+    margin: 0;
+}
+
+.threadIcon
+{
+    width: 15px;
+    margin-right: 3px;
+}
+
+.stickyIcon
+{
+    color: #dada55;
+}
+
+.hotIcon
+{
+    color: #00cc00;
+}
+
+.notHotIcon
+{
+    color: #ccc;
+}
+
+#header_logo,
+.main_navigation,
+#skin_left_of_game,
+#skin_right_of_game,
+.forum_info,
+.forum_desc,
+.kongregate-logo,
+.dev-footer-upsell,
+.line,
+.bd,
+.playlist,
+.favorites,
+.friends,
+#forum_search_text_field,
+#forum_search_submit_button,
+label[for="forum_id"],
+.crumbs,
+.mbs,
+.mts
+{
+    display: none;
+}
